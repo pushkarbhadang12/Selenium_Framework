@@ -39,8 +39,9 @@ jobs:
     - uses: browser-actions/setup-chrome@latest
     - run: chrome --version
     
-    - name: Build with Maven
-      run: mvn -B package --file Selenium_Framework/pom.xml
+    - name: Run Tests with Maven
+      #run: mvn -B package --file Selenium_Framework/pom.xml
+      run: mvn test
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
