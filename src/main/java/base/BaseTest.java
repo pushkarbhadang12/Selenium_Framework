@@ -15,7 +15,7 @@ protected WebDriver driver;
 	@BeforeMethod
 	public void setup() {
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless");
+		options.addArguments("--incognito");
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();		
 		driver.get(ConfigReader.readConfigValue("url"));
