@@ -10,6 +10,8 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<selenium.version>4.28.1</selenium.version>
 		<testng.version>7.10.2</testng.version>
+		<extentreports.version>5.1.2</extentreports.version>
+		<commons-io.version>2.19.0</commons-io.version>
 	</properties>
 	<dependencies>
 		<!--
@@ -23,7 +25,19 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>${testng.version}</version>			
+			<version>${testng.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>${extentreports.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commons-io.version}</version>
 		</dependency>
 	</dependencies>
 	<build>

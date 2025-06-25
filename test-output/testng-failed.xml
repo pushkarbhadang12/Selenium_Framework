@@ -8,6 +8,8 @@
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="validLoginTest"/>
+          <include name="tearDownReport"/>
+          <include name="setUpReport"/>
         </methods>
       </class> <!-- tests.LoginTest -->
     </classes>
