@@ -63,4 +63,9 @@ public class LoginPage {
 		}
 		return presenceOfErrorMessage;
 	}
+	
+	public String getErrorMessage() {
+		String message = errorMessage.getText();
+		return message;
+	}
 }
