@@ -15,6 +15,7 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 
 import utils.ConfigReader;
 import utils.ExtentReportManager;
+import utils.Log;
 
 public class BaseTest {
 	
@@ -34,10 +35,12 @@ protected static ExtentTest test;
 
 	@BeforeMethod
 	public void setup() {
+		Log.info("Starting Webdriver...");
 		ChromeOptions options = new ChromeOptions();
 		//options.addArguments("--incognito");
 		driver = new ChromeDriver(options);
-		driver.manage().window().maximize();		
+		driver.manage().window().maximize();	
+		Log.info("Navigting to URL..."+ConfigReader.readConfigValue("url"));
 		driver.get(ConfigReader.readConfigValue("url"));
 	}
 	
@@ -56,8 +59,10 @@ protected static ExtentTest test;
 					MediaEntityBuilder.createScreenCaptureFromPath(screenShotPath).build());
 		}
 		
-		if(driver!=null)
+		if(driver!=null) {
+			Log.info("Closing Browser...");
 			driver.quit();
+		}
 	}
 
 }

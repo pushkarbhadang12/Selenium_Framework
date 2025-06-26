@@ -1,0 +1,16 @@
+2025-06-26 15:58:05 [main] INFO  Log - Starting Webdriver...
+2025-06-26 15:58:17 [main] INFO  Log - Navigting to URL...https://ecommerce-playground.lambdatest.io/index.php?route=account/login
+2025-06-26 15:58:21 [main] INFO  Log - Entered Email Id: pushkar.bhadang@gmail.com
+2025-06-26 15:58:21 [main] INFO  Log - Entered Invalid Password: pushkar.bhadang@gmail.com
+2025-06-26 15:58:22 [main] INFO  Log - Verifying Error Message
+2025-06-26 15:58:22 [main] INFO  Log - Verified Error Message Successfully. Received Error Message as Warning: No match for E-Mail Address and/or Password.
+2025-06-26 15:58:22 [main] INFO  Log - Closing Browser...
+2025-06-26 15:58:23 [main] INFO  Log - Starting Webdriver...
+2025-06-26 15:58:25 [main] INFO  Log - Navigting to URL...https://ecommerce-playground.lambdatest.io/index.php?route=account/login
+2025-06-26 15:58:28 [main] INFO  Log - Entered Email Id: pushkar.bhadang@gmail.com
+2025-06-26 15:58:28 [main] INFO  Log - Entered Password: Test@1234
+2025-06-26 15:58:28 [main] INFO  Log - Logging in to the application
+2025-06-26 15:58:28 [main] INFO  Log - Verifying Page Title
+2025-06-26 15:58:29 [main] INFO  Log - Page Title is: My Account
+2025-06-26 15:58:29 [main] INFO  Log - Login Successful
+2025-06-26 15:58:30 [main] INFO  Log - Closing Browser...
