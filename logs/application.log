@@ -131,3 +131,37 @@
 2025-06-27 14:20:33 [main] INFO  Log - Page Title is: Account Login
 2025-06-27 14:20:33 [main] ERROR Log - Login Failed. Error Message received as Warning: No match for E-Mail Address and/or Password.
 2025-06-27 14:20:34 [main] INFO  Log - Closing Browser...
+2025-06-27 14:39:26 [main] INFO  Log - Starting Webdriver...
+2025-06-27 14:39:29 [main] INFO  Log - Navigting to URL...https://ecommerce-playground.lambdatest.io/index.php?route=account/login
+2025-06-27 14:39:33 [main] INFO  Log - Entered Email Id: pushkar.bhadang@gmail.com
+2025-06-27 14:39:33 [main] INFO  Log - Entered Password: Test@1234
+2025-06-27 14:39:33 [main] INFO  Log - Logging in to the application
+2025-06-27 14:39:36 [main] INFO  Log - Verifying Page Title
+2025-06-27 14:39:36 [main] INFO  Log - Page Title is: My Account
+2025-06-27 14:39:36 [main] INFO  Log - Closing Browser...
+2025-06-27 14:39:36 [main] INFO  Log - Starting Webdriver...
+2025-06-27 14:39:38 [main] INFO  Log - Navigting to URL...https://ecommerce-playground.lambdatest.io/index.php?route=account/login
+2025-06-27 14:39:41 [main] INFO  Log - Entered Email Id: vidya.bhadang@gmail.com
+2025-06-27 14:39:42 [main] INFO  Log - Entered Password: Test@1234
+2025-06-27 14:39:42 [main] INFO  Log - Logging in to the application
+2025-06-27 14:39:44 [main] INFO  Log - Verifying Page Title
+2025-06-27 14:39:44 [main] INFO  Log - Page Title is: My Account
+2025-06-27 14:39:44 [main] INFO  Log - Closing Browser...
+2025-06-27 14:41:51 [main] INFO  Log - Starting Webdriver...
+2025-06-27 14:41:54 [main] INFO  Log - Navigting to URL...https://ecommerce-playground.lambdatest.io/index.php?route=account/login
+2025-06-27 14:41:56 [main] INFO  Log - Entered Email Id: pushkar.bhadang@gmail.com
+2025-06-27 14:41:56 [main] INFO  Log - Entered Password: Test@1234
+2025-06-27 14:41:56 [main] INFO  Log - Logging in to the application
+2025-06-27 14:41:59 [main] INFO  Log - Verifying Page Title
+2025-06-27 14:41:59 [main] INFO  Log - Page Title is: My Account
+2025-06-27 14:41:59 [main] INFO  Log - Login Successful
+2025-06-27 14:41:59 [main] INFO  Log - Closing Browser...
+2025-06-27 14:41:59 [main] INFO  Log - Starting Webdriver...
+2025-06-27 14:42:01 [main] INFO  Log - Navigting to URL...https://ecommerce-playground.lambdatest.io/index.php?route=account/login
+2025-06-27 14:42:04 [main] INFO  Log - Entered Email Id: vidya.bhadang@gmail.com
+2025-06-27 14:42:04 [main] INFO  Log - Entered Password: Test@1234
+2025-06-27 14:42:04 [main] INFO  Log - Logging in to the application
+2025-06-27 14:42:06 [main] INFO  Log - Verifying Page Title
+2025-06-27 14:42:06 [main] INFO  Log - Page Title is: My Account
+2025-06-27 14:42:06 [main] INFO  Log - Login Successful
+2025-06-27 14:42:06 [main] INFO  Log - Closing Browser...
