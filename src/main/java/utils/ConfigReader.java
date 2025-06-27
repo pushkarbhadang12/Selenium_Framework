@@ -11,9 +11,8 @@ public class ConfigReader {
 	static Properties prop = new Properties();
 
 	public static String readConfigValue(String key) {
-
-		//String filepath = System.getProperty("user.dir") + "/src/test/resources/Project.properties";
-		String filepath = Paths.get("").toAbsolutePath().toString() + "/src/test/resources/Project.properties";
+		
+		String filepath = CommonFunctions.getProjectPath() + "/src/test/resources/Project.properties";
 		System.out.println("Properties file path: "+filepath);
 		try {
 			FileInputStream fis = new FileInputStream(filepath);

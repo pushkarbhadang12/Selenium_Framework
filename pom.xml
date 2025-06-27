@@ -12,8 +12,9 @@
 		<testng.version>7.10.2</testng.version>
 		<extentreports.version>5.1.2</extentreports.version>
 		<commons-io.version>2.19.0</commons-io.version>
-		<log4j-api.version>2.3.2</log4j-api.version>
-		<log4j-core.version>2.3.2</log4j-core.version>
+		<log4j-api.version>2.25.0</log4j-api.version>
+		<log4j-core.version>2.25.0</log4j-core.version>
+		<poi-ooxml.version>5.4.1</poi-ooxml.version>
 	</properties>
 	<dependencies>
 		<!--
@@ -50,6 +51,12 @@
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
 			<version>${log4j-core.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>${poi-ooxml.version}</version>
 		</dependency>
 	</dependencies>
 	<build>
