@@ -69,33 +69,33 @@ public class LoginTest extends BaseTest {
 	}
 
 	
-	public void invalidLoginTest() {
-		test = ExtentReportManager.createTest("InvalidLoginTest");
-		LoginPage loginPage = new LoginPage(driver);
-
-		loginPage.enterEmailId(ConfigReader.readConfigValue("emailId"));
-		test.info("Entered Email Id: "+ConfigReader.readConfigValue("emailId"));
-		Log.info("Entered Email Id: "+ConfigReader.readConfigValue("emailId"));
-		
-		loginPage.enterPassword(ConfigReader.readConfigValue("emailId"));
-		test.info("Entered Invalid Password: "+ConfigReader.readConfigValue("emailId"));
-		Log.info("Entered Invalid Password: "+ConfigReader.readConfigValue("emailId"));
-		
-		loginPage.clickLogin();
-		
-		test.info("Verifying Error Message");
-		Log.info("Verifying Error Message");
-		
-		if(loginPage.checkPresenceOfErrorMessage()==true) {
-			test.pass("Verified Error Message Successfully. Received Error Message as "+loginPage.getErrorMessage());
-			Log.info("Verified Error Message Successfully. Received Error Message as "+loginPage.getErrorMessage());
-		}
-		else {
-			test.fail("Unable to verify Error Message");
-			Log.error("Unable to verify Error Message");
-		}
-		
-		Assert.assertEquals(loginPage.checkPresenceOfErrorMessage(), true);
-	}
+//	public void invalidLoginTest() {
+//		test = ExtentReportManager.createTest("InvalidLoginTest");
+//		LoginPage loginPage = new LoginPage(driver);
+//
+//		loginPage.enterEmailId(ConfigReader.readConfigValue("emailId"));
+//		test.info("Entered Email Id: "+ConfigReader.readConfigValue("emailId"));
+//		Log.info("Entered Email Id: "+ConfigReader.readConfigValue("emailId"));
+//		
+//		loginPage.enterPassword(ConfigReader.readConfigValue("emailId"));
+//		test.info("Entered Invalid Password: "+ConfigReader.readConfigValue("emailId"));
+//		Log.info("Entered Invalid Password: "+ConfigReader.readConfigValue("emailId"));
+//		
+//		loginPage.clickLogin();
+//		
+//		test.info("Verifying Error Message");
+//		Log.info("Verifying Error Message");
+//		
+//		if(loginPage.checkPresenceOfErrorMessage()==true) {
+//			test.pass("Verified Error Message Successfully. Received Error Message as "+loginPage.getErrorMessage());
+//			Log.info("Verified Error Message Successfully. Received Error Message as "+loginPage.getErrorMessage());
+//		}
+//		else {
+//			test.fail("Unable to verify Error Message");
+//			Log.error("Unable to verify Error Message");
+//		}
+//		
+//		Assert.assertEquals(loginPage.checkPresenceOfErrorMessage(), true);
+//	}
 
 }
