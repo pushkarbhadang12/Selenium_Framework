@@ -23,6 +23,9 @@ public class LoginPage {
 
 	@FindBy(xpath = "//div[contains(text(),'Warning: No match')]")
 	WebElement errorMessage;
+	
+	@FindBy(xpath = "//a[contains(text(),'Edit Account')]")
+	WebElement editAccountLink;
 
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
@@ -62,6 +65,22 @@ public class LoginPage {
 			System.out.println("Unable to check presence of Error Message");
 		}
 		return presenceOfErrorMessage;
+	}
+	
+	public boolean checkPresenceOfEditAccountLink() {
+		boolean presenceOfHomeLink = false;
+		try {
+			if (editAccountLink.isDisplayed() == true) {					
+				presenceOfHomeLink = true;
+			}
+			else {				
+				presenceOfHomeLink = false;				
+			}
+			
+		} catch (Exception e) {
+			System.out.println("Unable to check presence of Home Link");
+		}
+		return presenceOfHomeLink;
 	}
 	
 	public String getErrorMessage() {		
