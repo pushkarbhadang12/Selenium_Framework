@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-27T14:41:49 IST" name="Default suite" finished-at="2025-06-27T14:42:06 IST" duration-ms="17537">
+  <suite started-at="2025-06-27T16:12:59 IST" name="Default suite" finished-at="2025-06-27T16:13:26 IST" duration-ms="26451">
     <groups>
     </groups>
-    <test started-at="2025-06-27T14:41:49 IST" name="Default test" finished-at="2025-06-27T14:42:06 IST" duration-ms="17537">
+    <test started-at="2025-06-27T16:12:59 IST" name="Default test" finished-at="2025-06-27T16:13:26 IST" duration-ms="26451">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setUpReport()[pri:0, instance:tests.LoginTest@38e79ae3]" started-at="2025-06-27T14:41:48 IST" name="setUpReport" finished-at="2025-06-27T14:41:49 IST" duration-ms="481" status="PASS">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:tests.LoginTest@38e79ae3]" started-at="2025-06-27T16:12:59 IST" name="setUpReport" finished-at="2025-06-27T16:12:59 IST" duration-ms="393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@38e79ae3]" started-at="2025-06-27T14:41:51 IST" name="setup" finished-at="2025-06-27T14:41:56 IST" duration-ms="5363" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@38e79ae3]" started-at="2025-06-27T16:13:01 IST" name="setup" finished-at="2025-06-27T16:13:11 IST" duration-ms="10329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@38e79ae3]" started-at="2025-06-27T14:41:56 IST" name="validLoginTest" data-provider="LoginData" finished-at="2025-06-27T14:41:59 IST" duration-ms="2834" status="PASS">
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@38e79ae3]" started-at="2025-06-27T16:13:11 IST" name="validLoginTest" data-provider="LoginData" finished-at="2025-06-27T16:13:13 IST" duration-ms="2157" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@38e79ae3]" started-at="2025-06-27T14:41:59 IST" name="tearDown" finished-at="2025-06-27T14:41:59 IST" duration-ms="543" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@38e79ae3]" started-at="2025-06-27T16:13:13 IST" name="tearDown" finished-at="2025-06-27T16:13:14 IST" duration-ms="454" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,11 +42,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@38e79ae3]" started-at="2025-06-27T14:41:59 IST" name="setup" finished-at="2025-06-27T14:42:04 IST" duration-ms="4390" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@38e79ae3]" started-at="2025-06-27T16:13:14 IST" name="setup" finished-at="2025-06-27T16:13:23 IST" duration-ms="9361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@38e79ae3]" started-at="2025-06-27T14:42:04 IST" name="validLoginTest" data-provider="LoginData" finished-at="2025-06-27T14:42:06 IST" duration-ms="2156" status="PASS">
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@38e79ae3]" started-at="2025-06-27T16:13:23 IST" name="validLoginTest" data-provider="LoginData" finished-at="2025-06-27T16:13:25 IST" duration-ms="2025" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@38e79ae3]" started-at="2025-06-27T14:42:06 IST" name="tearDown" finished-at="2025-06-27T14:42:06 IST" duration-ms="472" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@38e79ae3]" started-at="2025-06-27T16:13:25 IST" name="tearDown" finished-at="2025-06-27T16:13:26 IST" duration-ms="462" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,7 +73,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:tests.LoginTest@38e79ae3]" started-at="2025-06-27T14:42:06 IST" name="tearDownReport" finished-at="2025-06-27T14:42:07 IST" duration-ms="579" status="PASS">
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:tests.LoginTest@38e79ae3]" started-at="2025-06-27T16:13:26 IST" name="tearDownReport" finished-at="2025-06-27T16:13:26 IST" duration-ms="531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->
