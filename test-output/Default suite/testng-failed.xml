@@ -7,7 +7,7 @@
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="validLoginTest"/>
+          <include name="validLoginTest" invocation-numbers="2"/>
           <include name="tearDownReport"/>
           <include name="setUpReport"/>
         </methods>
