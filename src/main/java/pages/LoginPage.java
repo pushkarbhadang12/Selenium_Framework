@@ -21,8 +21,8 @@ public class LoginPage {
 	@FindBy(xpath = "//input[@type='submit']")
 	WebElement loginButton;
 
-	@FindBy(xpath = "//div[contains(text(),'Warning: No match')]")
-	WebElement errorMessage;
+//	@FindBy(xpath = "//div[contains(text(),'Warning: No match')]")
+//	WebElement errorMessage;
 	
 	@FindBy(xpath = "//a[contains(text(),'Edit Account')]")
 	WebElement editAccountLink;
@@ -83,10 +83,10 @@ public class LoginPage {
 		return presenceOfHomeLink;
 	}
 	
-	public String getErrorMessage() {		
-		if(errorMessage.isDisplayed()==true)
-			return errorMessage.getText();
-		else
-			return null;
-	}
+//	public String getErrorMessage() {		
+//		if(errorMessage.isDisplayed()==true)
+//			return errorMessage.getText();
+//		else
+//			return null;
+//	}
 }

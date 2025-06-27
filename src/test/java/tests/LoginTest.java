@@ -60,9 +60,9 @@ public class LoginTest extends BaseTest {
 			softAssert.assertEquals(loginPage.checkPresenceOfEditAccountLink(), true);
 		}
 		else {
-			test.fail("Login Failed. Error Message received: "+loginPage.getErrorMessage());
-			Log.error("Login Failed. Error Message received: "+loginPage.getErrorMessage());
-			Assert.fail("Login Failed. Error Message received: "+loginPage.getErrorMessage());
+			test.fail("Login Failed. Error Message received");
+			Log.error("Login Failed. Error Message received");
+			Assert.fail("Login Failed. Error Message received");
 		}		
 		
 		softAssert.assertAll();
