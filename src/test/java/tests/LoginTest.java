@@ -1,7 +1,6 @@
 package tests;
 
 import java.io.IOException;
-import java.nio.file.Paths;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -32,7 +31,7 @@ public class LoginTest extends BaseTest {
 	}
 
 	@Test(dataProvider = "LoginData")
-	public void validLoginTest(String username, String password) {
+	public void loginTest(String username, String password) {
 
 		test = ExtentReportManager.createTest("ValidLoginTest");
 		LoginPage loginPage = new LoginPage(driver);
@@ -49,24 +48,23 @@ public class LoginTest extends BaseTest {
 		Log.info("Logging in to the application");
 		loginPage.clickLogin();		
 
-		test.info("Verifying Page Title");
-		Log.info("Verifying Page Title");
-		String pageTitle = loginPage.getPageTitle();
-		System.out.println("Page Title is: " + pageTitle);
-		test.info("Page Title is: " + pageTitle);
-		Log.info("Page Title is: " + pageTitle);
+		test.info("Verifying presence of HomeLink");
+		Log.info("Verifying presence of HomeLink");		
 		
-		if(pageTitle.equalsIgnoreCase("My Account")) {
+		SoftAssert softAssert = null;
+		
+		if(loginPage.checkPresenceOfEditAccountLink()==true) {
 			test.pass("Login Successful");
 			Log.info("Login Successful");
+			softAssert = new SoftAssert();
+			softAssert.assertEquals(loginPage.checkPresenceOfEditAccountLink(), true);
 		}
-		else if(loginPage.checkPresenceOfErrorMessage()==true) {
+		else {
 			test.fail("Login Failed. Error Message received: "+loginPage.getErrorMessage());
 			Log.error("Login Failed. Error Message received: "+loginPage.getErrorMessage());
+			Assert.fail("Login Failed. Error Message received: "+loginPage.getErrorMessage());
 		}		
 		
-		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(pageTitle, "My Account");
 		softAssert.assertAll();
 	}
 
