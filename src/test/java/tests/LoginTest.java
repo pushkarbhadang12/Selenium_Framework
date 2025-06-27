@@ -60,10 +60,10 @@ public class LoginTest extends BaseTest {
 			test.pass("Login Successful");
 			Log.info("Login Successful");
 		}
-		else {
-			test.fail("Login Failed. Error Message received as "+loginPage.getErrorMessage());
-			Log.error("Login Failed. Error Message received as "+loginPage.getErrorMessage());
-		}
+		else if(loginPage.checkPresenceOfErrorMessage()==true) {
+			test.fail("Login Failed. Error Message received: "+loginPage.getErrorMessage());
+			Log.error("Login Failed. Error Message received: "+loginPage.getErrorMessage());
+		}		
 		
 		SoftAssert softAssert = new SoftAssert();
 		softAssert.assertEquals(pageTitle, "My Account");
