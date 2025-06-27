@@ -49,23 +49,23 @@ public class LoginPage {
 		return driver.getTitle();
 	}
 
-	public boolean checkPresenceOfErrorMessage() {
-		boolean presenceOfErrorMessage = false;
-		try {
-			if (errorMessage.isDisplayed() == true) {	
-				System.out.println("Error message displayed as: "+ConfigReader.readConfigValue("invalidLoginErrorMsg"));
-				presenceOfErrorMessage = true;
-			}
-			else {
-				System.out.println("Not able to find any Error Message.");
-				presenceOfErrorMessage = false;				
-			}
-			
-		} catch (Exception e) {
-			System.out.println("Unable to check presence of Error Message");
-		}
-		return presenceOfErrorMessage;
-	}
+//	public boolean checkPresenceOfErrorMessage() {
+//		boolean presenceOfErrorMessage = false;
+//		try {
+//			if (errorMessage.isDisplayed() == true) {	
+//				System.out.println("Error message displayed as: "+ConfigReader.readConfigValue("invalidLoginErrorMsg"));
+//				presenceOfErrorMessage = true;
+//			}
+//			else {
+//				System.out.println("Not able to find any Error Message.");
+//				presenceOfErrorMessage = false;				
+//			}
+//			
+//		} catch (Exception e) {
+//			System.out.println("Unable to check presence of Error Message");
+//		}
+//		return presenceOfErrorMessage;
+//	}
 	
 	public boolean checkPresenceOfEditAccountLink() {
 		boolean presenceOfHomeLink = false;

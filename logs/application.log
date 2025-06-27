@@ -233,3 +233,35 @@
 2025-06-27 17:31:11 [main] INFO  Log - Verifying presence of HomeLink
 2025-06-27 17:31:11 [main] ERROR Log - Login Failed. Error Message received: Warning: No match for E-Mail Address and/or Password.
 2025-06-27 17:31:11 [main] INFO  Log - Closing Browser...
+2025-06-27 18:30:51 [main] INFO  Log - Starting Webdriver...
+2025-06-27 18:30:56 [main] INFO  Log - Navigting to URL...https://ecommerce-playground.lambdatest.io/index.php?route=account/login
+2025-06-27 18:30:59 [main] INFO  Log - Entered Email Id: pushkar.bhadang@gmail.com
+2025-06-27 18:30:59 [main] INFO  Log - Entered Password: Test@1234
+2025-06-27 18:30:59 [main] INFO  Log - Logging in to the application
+2025-06-27 18:31:01 [main] INFO  Log - Verifying presence of HomeLink
+2025-06-27 18:31:01 [main] INFO  Log - Login Successful
+2025-06-27 18:31:01 [main] INFO  Log - Closing Browser...
+2025-06-27 18:31:02 [main] INFO  Log - Starting Webdriver...
+2025-06-27 18:31:04 [main] INFO  Log - Navigting to URL...https://ecommerce-playground.lambdatest.io/index.php?route=account/login
+2025-06-27 18:31:07 [main] INFO  Log - Entered Email Id: vidya.bhadang@gmail.com
+2025-06-27 18:31:07 [main] INFO  Log - Entered Password: Test@1234
+2025-06-27 18:31:07 [main] INFO  Log - Logging in to the application
+2025-06-27 18:31:08 [main] INFO  Log - Verifying presence of HomeLink
+2025-06-27 18:31:08 [main] ERROR Log - Login Failed. Error Message received
+2025-06-27 18:31:08 [main] INFO  Log - Closing Browser...
+2025-06-27 18:46:17 [main] INFO  Log - Starting Webdriver...
+2025-06-27 18:46:20 [main] INFO  Log - Navigting to URL...https://ecommerce-playground.lambdatest.io/index.php?route=account/login
+2025-06-27 18:46:23 [main] INFO  Log - Entered Email Id: pushkar.bhadang@gmail.com
+2025-06-27 18:46:23 [main] INFO  Log - Entered Password: Test@1234
+2025-06-27 18:46:23 [main] INFO  Log - Logging in to the application
+2025-06-27 18:46:25 [main] INFO  Log - Verifying presence of HomeLink
+2025-06-27 18:46:25 [main] INFO  Log - Login Successful
+2025-06-27 18:46:26 [main] INFO  Log - Closing Browser...
+2025-06-27 18:46:26 [main] INFO  Log - Starting Webdriver...
+2025-06-27 18:46:28 [main] INFO  Log - Navigting to URL...https://ecommerce-playground.lambdatest.io/index.php?route=account/login
+2025-06-27 18:46:38 [main] INFO  Log - Entered Email Id: vidya.bhadang@gmail.com
+2025-06-27 18:46:38 [main] INFO  Log - Entered Password: Test@1234
+2025-06-27 18:46:38 [main] INFO  Log - Logging in to the application
+2025-06-27 18:46:40 [main] INFO  Log - Verifying presence of HomeLink
+2025-06-27 18:46:40 [main] INFO  Log - Login Successful
+2025-06-27 18:46:41 [main] INFO  Log - Closing Browser...
