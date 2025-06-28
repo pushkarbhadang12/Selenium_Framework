@@ -14,6 +14,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 
 import utils.ConfigReader;
+import utils.EmailUtils;
 import utils.ExtentReportManager;
 import utils.Log;
 
@@ -31,6 +32,8 @@ protected static ExtentTest test;
 	@AfterSuite
 	public void tearDownReport() {
 		extent.flush();
+		String reportPath = ExtentReportManager.reportPath;
+		EmailUtils.sendTestReport(reportPath);
 	}
 
 	@BeforeMethod
