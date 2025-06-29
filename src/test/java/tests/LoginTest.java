@@ -55,8 +55,8 @@ public class LoginTest extends BaseTest {
 		SoftAssert softAssert = null;
 		
 		if(loginPage.checkPresenceOfEditAccountLink()==true) {
-			test.pass("Login Successful. Login Test Passed.");
-			Log.info("Login Successful. Login Test Passed.");
+			test.pass("Login Successful.");
+			Log.info("Login Successful.");
 			softAssert = new SoftAssert();
 			softAssert.assertEquals(loginPage.checkPresenceOfEditAccountLink(), true);
 		}
