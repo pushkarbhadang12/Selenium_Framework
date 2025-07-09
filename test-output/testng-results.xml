@@ -1,83 +1,219 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-29T11:57:39 IST" name="FrameworkSuite" finished-at="2025-06-29T11:57:55 IST" duration-ms="16984">
+  <suite started-at="2025-07-09T12:03:13 IST" name="Default suite" finished-at="2025-07-09T12:03:23 IST" duration-ms="9284">
     <groups>
     </groups>
-    <test started-at="2025-06-29T11:57:39 IST" name="LoginTest" finished-at="2025-06-29T11:57:55 IST" duration-ms="16984">
-      <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setUpReport()[pri:0, instance:tests.LoginTest@424e1977]" started-at="2025-06-29T11:57:38 IST" name="setUpReport" finished-at="2025-06-29T11:57:39 IST" duration-ms="450" status="PASS">
+    <test started-at="2025-07-09T12:03:13 IST" name="Default test" finished-at="2025-07-09T12:03:23 IST" duration-ms="9284">
+      <class name="tests.APITest">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:tests.APITest@6200f9cb]" started-at="2025-07-09T12:03:13 IST" name="setUpReport" finished-at="2025-07-09T12:03:13 IST" duration-ms="356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@424e1977]" started-at="2025-06-29T11:57:40 IST" name="setup" finished-at="2025-06-29T11:57:45 IST" duration-ms="4857" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@424e1977]" started-at="2025-06-29T11:57:45 IST" name="loginTest" data-provider="LoginData" finished-at="2025-06-29T11:57:48 IST" duration-ms="2550" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.APITest@6200f9cb]" started-at="2025-07-09T12:03:13 IST" name="setup" finished-at="2025-07-09T12:03:14 IST" duration-ms="567" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[pushkar.bhadang@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Test@1234]]>
+                <![CDATA[org.testng.TestRunner@23b087c3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@424e1977]" started-at="2025-06-29T11:57:48 IST" name="tearDown" finished-at="2025-06-29T11:57:48 IST" duration-ms="452" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="createUserAPITest(java.lang.reflect.Method)[pri:1, instance:tests.APITest@6200f9cb]" started-at="2025-07-09T12:03:14 IST" name="createUserAPITest" finished-at="2025-07-09T12:03:18 IST" duration-ms="4362" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@424e1977] output={null}]]]>
+                <![CDATA[public void tests.APITest.createUserAPITest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserAPITest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.APITest@6200f9cb]" started-at="2025-07-09T12:03:18 IST" name="tearDown" finished-at="2025-07-09T12:03:18 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createUserAPITest status=SUCCESS method=APITest.createUserAPITest(java.lang.reflect.Method)[pri:1, instance:tests.APITest@6200f9cb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@424e1977]" started-at="2025-06-29T11:57:48 IST" name="setup" finished-at="2025-06-29T11:57:53 IST" duration-ms="4576" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@424e1977]" started-at="2025-06-29T11:57:53 IST" name="loginTest" data-provider="LoginData" finished-at="2025-06-29T11:57:55 IST" duration-ms="2325" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.APITest@6200f9cb]" started-at="2025-07-09T12:03:18 IST" name="setup" finished-at="2025-07-09T12:03:18 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[vidya.bhadang@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Test@1234]]>
+                <![CDATA[org.testng.TestRunner@23b087c3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@424e1977]" started-at="2025-06-29T11:57:55 IST" name="tearDown" finished-at="2025-06-29T11:57:55 IST" duration-ms="420" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="generateTokenAPITest(java.lang.reflect.Method)[pri:2, instance:tests.APITest@6200f9cb]" started-at="2025-07-09T12:03:18 IST" name="generateTokenAPITest" finished-at="2025-07-09T12:03:20 IST" duration-ms="1193" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@424e1977] output={null}]]]>
+                <![CDATA[public void tests.APITest.generateTokenAPITest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTokenAPITest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.APITest@6200f9cb]" started-at="2025-07-09T12:03:20 IST" name="tearDown" finished-at="2025-07-09T12:03:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=generateTokenAPITest status=SUCCESS method=APITest.generateTokenAPITest(java.lang.reflect.Method)[pri:2, instance:tests.APITest@6200f9cb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:tests.LoginTest@424e1977]" started-at="2025-06-29T11:57:56 IST" name="tearDownReport" finished-at="2025-06-29T11:58:01 IST" duration-ms="5810" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.APITest@6200f9cb]" started-at="2025-07-09T12:03:20 IST" name="setup" finished-at="2025-07-09T12:03:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@23b087c3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getBooksAPITest(java.lang.reflect.Method)[pri:3, instance:tests.APITest@6200f9cb]" started-at="2025-07-09T12:03:20 IST" name="getBooksAPITest" finished-at="2025-07-09T12:03:20 IST" duration-ms="721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.APITest.getBooksAPITest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBooksAPITest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.APITest@6200f9cb]" started-at="2025-07-09T12:03:20 IST" name="tearDown" finished-at="2025-07-09T12:03:20 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getBooksAPITest status=SUCCESS method=APITest.getBooksAPITest(java.lang.reflect.Method)[pri:3, instance:tests.APITest@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.APITest@6200f9cb]" started-at="2025-07-09T12:03:20 IST" name="setup" finished-at="2025-07-09T12:03:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@23b087c3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addBookAPITest(java.lang.reflect.Method)[pri:4, instance:tests.APITest@6200f9cb]" started-at="2025-07-09T12:03:20 IST" name="addBookAPITest" finished-at="2025-07-09T12:03:21 IST" duration-ms="750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.APITest.addBookAPITest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBookAPITest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.APITest@6200f9cb]" started-at="2025-07-09T12:03:21 IST" name="tearDown" finished-at="2025-07-09T12:03:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addBookAPITest status=SUCCESS method=APITest.addBookAPITest(java.lang.reflect.Method)[pri:4, instance:tests.APITest@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.APITest@6200f9cb]" started-at="2025-07-09T12:03:21 IST" name="setup" finished-at="2025-07-09T12:03:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@23b087c3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="editBookAPITest(java.lang.reflect.Method)[pri:5, instance:tests.APITest@6200f9cb]" started-at="2025-07-09T12:03:21 IST" name="editBookAPITest" finished-at="2025-07-09T12:03:22 IST" duration-ms="777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.APITest.editBookAPITest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editBookAPITest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.APITest@6200f9cb]" started-at="2025-07-09T12:03:22 IST" name="tearDown" finished-at="2025-07-09T12:03:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editBookAPITest status=SUCCESS method=APITest.editBookAPITest(java.lang.reflect.Method)[pri:5, instance:tests.APITest@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.APITest@6200f9cb]" started-at="2025-07-09T12:03:22 IST" name="setup" finished-at="2025-07-09T12:03:22 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@23b087c3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteBookAPITest(java.lang.reflect.Method)[pri:6, instance:tests.APITest@6200f9cb]" started-at="2025-07-09T12:03:22 IST" name="deleteBookAPITest" finished-at="2025-07-09T12:03:23 IST" duration-ms="800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.APITest.deleteBookAPITest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBookAPITest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.APITest@6200f9cb]" started-at="2025-07-09T12:03:23 IST" name="tearDown" finished-at="2025-07-09T12:03:23 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteBookAPITest status=SUCCESS method=APITest.deleteBookAPITest(java.lang.reflect.Method)[pri:6, instance:tests.APITest@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:tests.APITest@6200f9cb]" started-at="2025-07-09T12:03:23 IST" name="tearDownReport" finished-at="2025-07-09T12:03:28 IST" duration-ms="5649" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->
-      </class> <!-- tests.LoginTest -->
-    </test> <!-- LoginTest -->
-  </suite> <!-- FrameworkSuite -->
+      </class> <!-- tests.APITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

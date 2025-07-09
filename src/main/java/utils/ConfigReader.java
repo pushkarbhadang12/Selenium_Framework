@@ -12,13 +12,11 @@ public class ConfigReader {
 
 	public static String readConfigValue(String key) {
 		
-		String filepath = CommonFunctions.getProjectPath() + "/src/test/resources/Project.properties";
-		System.out.println("Properties file path: "+filepath);
+		String filepath = CommonFunctions.getProjectPath() + "/src/test/resources/Project.properties";		
 		try {
 			FileInputStream fis = new FileInputStream(filepath);
 			prop.load(fis);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
+		} catch (IOException e) {			
 			e.printStackTrace();
 		}
 
