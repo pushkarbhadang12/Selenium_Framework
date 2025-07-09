@@ -3,6 +3,7 @@
 <suite name="FrameworkSuite">
   <test thread-count="5" name="LoginTest">    
     <classes>
+      <class name="tests.APITest"/>
       <class name="tests.LoginTest"/>
     </classes>
   </test> <!-- LoginTest -->

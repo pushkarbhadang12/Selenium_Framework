@@ -1,6 +1,8 @@
 package tests;
 
 import java.io.IOException;
+import java.lang.reflect.Method;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
@@ -32,9 +34,9 @@ public class LoginTest extends BaseTest {
 	}
 	
 	@Test(dataProvider = "LoginData")	
-	public void loginTest(String username, String password) {
+	public void loginTest(String username, String password, Method method) {
 
-		test = ExtentReportManager.createTest("LoginTest");
+		test = ExtentReportManager.createTest(method.getName());
 		LoginPage loginPage = new LoginPage(driver);
 		
 		loginPage.enterEmailId(username);
