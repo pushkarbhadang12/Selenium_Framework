@@ -36,8 +36,8 @@ public class APITest extends BaseTest{
 		headerMap.put("Content-Type", "application/json");
 		JSONObject header = new JSONObject(headerMap);
 		
-		test.info("Header:"+headerMap);
-		Log.info("Header:"+headerMap);
+		test.info("Header to be passed in API:"+headerMap);
+		Log.info("Header to be passed in API:"+headerMap);
 		
 		username = CommonFunctions.generateRandomUsername();
 		
@@ -76,8 +76,8 @@ public class APITest extends BaseTest{
 		headerMap.put("Content-Type", "application/json");
 		JSONObject header = new JSONObject(headerMap);
 		
-		test.info("Header:"+headerMap);
-		Log.info("Header:"+headerMap);
+		test.info("Header to be passed in API:"+headerMap);
+		Log.info("Header to be passed in API:"+headerMap);
 		
 		Map<String, Object> map = new HashMap<>();
 		map.put("userName", username);
@@ -140,8 +140,8 @@ public class APITest extends BaseTest{
 		headerMap.put("Content-Type", "application/json");
 		headerMap.put("Authorization", "Bearer "+token);
 		JSONObject header = new JSONObject(headerMap);		
-		test.info("Header:"+headerMap);
-		Log.info("Header:"+headerMap);
+		test.info("Header to be passed in API:"+headerMap);
+		Log.info("Header to be passed in API:"+headerMap);
 		
 		Map<String, Object> map = new HashMap<>();
 		map.put("userId", userid);
@@ -174,8 +174,8 @@ public class APITest extends BaseTest{
 		headerMap.put("Content-Type", "application/json");
 		headerMap.put("Authorization", "Bearer "+token);
 		JSONObject header = new JSONObject(headerMap);		
-		test.info("Header:"+headerMap);
-		Log.info("Header:"+headerMap);	
+		test.info("Header to be passed in API:"+headerMap);
+		Log.info("Header to be passed in API:"+headerMap);
 				
 		Map<String, Object> map = new HashMap<>();
 		map.put("userId", userid);
@@ -202,8 +202,8 @@ public class APITest extends BaseTest{
 		headerMap.put("Content-Type", "application/json");
 		headerMap.put("Authorization", "Bearer "+token);
 		JSONObject header = new JSONObject(headerMap);		
-		test.info("Header:"+headerMap);
-		Log.info("Header:"+headerMap);	
+		test.info("Header to be passed in API:"+headerMap);
+		Log.info("Header to be passed in API:"+headerMap);
 				
 		Map<String, Object> map = new HashMap<>();
 		map.put("userId", userid);
